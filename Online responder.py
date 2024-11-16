@@ -1,8 +1,7 @@
 import sqlite3  
 import tkinter as tk  
 from tkinter import messagebox  
-import random  
-
+import random
 # ایجاد یا اتصال به پایگاه داده SQLite  
 conn = sqlite3.connect('knowledge_base.db')  
 c = conn.cursor()  
